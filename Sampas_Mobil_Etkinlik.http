@@ -1,0 +1,6 @@
+@Sampas_Mobil_Etkinlik_HostAddress = http://localhost:5262
+
+GET {{Sampas_Mobil_Etkinlik_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
