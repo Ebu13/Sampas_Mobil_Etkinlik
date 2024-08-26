@@ -1992,11 +1992,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Ebubekir13\\Desktop\\Etkinlik\\Sampas_Mobil_Etkinlik\\Sampas_Mobil_Etkinlik.csproj",
+      "projectUniqueName": "C:\\Users\\Ebubekir13\\Downloads\\Etkinlik\\Sampas_Mobil_Etkinlik\\Sampas_Mobil_Etkinlik.csproj",
       "projectName": "Sampas_Mobil_Etkinlik",
-      "projectPath": "C:\\Users\\Ebubekir13\\Desktop\\Etkinlik\\Sampas_Mobil_Etkinlik\\Sampas_Mobil_Etkinlik.csproj",
+      "projectPath": "C:\\Users\\Ebubekir13\\Downloads\\Etkinlik\\Sampas_Mobil_Etkinlik\\Sampas_Mobil_Etkinlik.csproj",
       "packagesPath": "C:\\Users\\Ebubekir13\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Ebubekir13\\Desktop\\Etkinlik\\Sampas_Mobil_Etkinlik\\obj\\",
+      "outputPath": "C:\\Users\\Ebubekir13\\Downloads\\Etkinlik\\Sampas_Mobil_Etkinlik\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Ebubekir13\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Sampas_Mobil_Etkinlik")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7c79daf15ce9fdf594e0ec2ebd3f8970bb069399")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7b940da4d4339f48a3ff6d940195162f7831ab12")]
 [assembly: System.Reflection.AssemblyProductAttribute("Sampas_Mobil_Etkinlik")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Sampas_Mobil_Etkinlik")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
