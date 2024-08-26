@@ -60,7 +60,7 @@ try
     // HTTP ile çalışacak şekilde Kestrel yapılandırması
     builder.WebHost.ConfigureKestrel(options =>
     {
-        options.ListenAnyIP(80); // HTTPS yerine HTTP kullanılır.
+        options.ListenAnyIP(5262); // HTTPS yerine HTTP kullanılır.
     });
 
     var app = builder.Build();
