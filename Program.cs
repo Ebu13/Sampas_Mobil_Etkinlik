@@ -1,4 +1,3 @@
-
 using NLog;
 using NLog.Extensions.Logging;
 using NLog.Web;
@@ -57,6 +56,12 @@ try
     builder.Services.AddServiceDescriptors(appSettings);
     builder.Services.AddAuthenticationWithJwt(jwtSettings);
     builder.Services.AddAuthorization();
+
+    // HTTP ile çalışacak şekilde Kestrel yapılandırması
+    builder.WebHost.ConfigureKestrel(options =>
+    {
+        options.ListenAnyIP(80); // HTTPS yerine HTTP kullanılır.
+    });
 
     var app = builder.Build();
 
