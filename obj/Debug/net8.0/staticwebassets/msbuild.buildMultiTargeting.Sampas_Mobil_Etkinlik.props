@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\Sampas_Mobil_Etkinlik.props" />
+</Project>

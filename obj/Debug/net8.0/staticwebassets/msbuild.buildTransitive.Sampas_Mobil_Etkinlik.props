@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\Sampas_Mobil_Etkinlik.props" />
+</Project>

@@ -1,0 +1,68 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Ebubekir13\\Desktop\\Etkinlik\\Sampas_Mobil_Etkinlik\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C7DC1570-4A02-4D7A-861E-03017FCC0492}|Sampas_Mobil_Etkinlik.csproj|c:\\users\\ebubekir13\\desktop\\etkinlik\\sampas_mobil_etkinlik\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{C7DC1570-4A02-4D7A-861E-03017FCC0492}|Sampas_Mobil_Etkinlik.csproj|solutionrelative:appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7DC1570-4A02-4D7A-861E-03017FCC0492}|Sampas_Mobil_Etkinlik.csproj|c:\\users\\ebubekir13\\desktop\\etkinlik\\sampas_mobil_etkinlik\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{C7DC1570-4A02-4D7A-861E-03017FCC0492}|Sampas_Mobil_Etkinlik.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 54,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\Ebubekir13\\Desktop\\Etkinlik\\Sampas_Mobil_Etkinlik\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "appsettings.Development.json",
+              "ToolTip": "C:\\Users\\Ebubekir13\\Desktop\\Etkinlik\\Sampas_Mobil_Etkinlik\\appsettings.Development.json",
+              "RelativeToolTip": "appsettings.Development.json",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAkwAwAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-08-23T13:20:36.307Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Ebubekir13\\Desktop\\Etkinlik\\Sampas_Mobil_Etkinlik\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\Ebubekir13\\Desktop\\Etkinlik\\Sampas_Mobil_Etkinlik\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-08-23T13:20:34.165Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedHeight": 54,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
