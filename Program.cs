@@ -21,7 +21,16 @@ try
         options.SuppressModelStateInvalidFilter = true;
     });
 
-    builder.Services.AddCors();
+    builder.Services.AddCors(options =>
+    {
+        options.AddPolicy("MyCorsPolicy", builder =>
+        {
+            builder.WithOrigins("http://localhost:5173") // Belirli bir origin
+                   .AllowAnyMethod()
+                   .AllowAnyHeader()
+                   .AllowCredentials(); // Eğer AllowCredentials kullanıyorsanız WithOrigins ile olmalı
+        });
+    });
 
     builder.Services.AddHttpClient();
     builder.Services.AddResponseCaching();
@@ -80,12 +89,7 @@ try
         ForwardedHeaders = ForwardedHeaders.XForwardedFor | ForwardedHeaders.XForwardedProto
     });
 
-    app.UseCors(x => x
-        .SetIsOriginAllowed(origin => true)
-        .AllowAnyMethod()
-        .AllowAnyHeader()
-        .AllowCredentials()
-    );
+    app.UseCors("MyCorsPolicy");
 
     app.UseResponseCaching();
     app.UseAuthentication();
@@ -105,3 +109,4 @@ finally
 {
     NLog.LogManager.Shutdown();
 }
+
