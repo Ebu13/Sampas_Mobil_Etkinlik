@@ -21,14 +21,15 @@ try
         options.SuppressModelStateInvalidFilter = true;
     });
 
+    // CORS yapılandırması
     builder.Services.AddCors(options =>
     {
         options.AddPolicy("MyCorsPolicy", builder =>
         {
-            builder.WithOrigins("http://localhost:5173") // Belirli bir origin
+            builder.WithOrigins("http://192.168.34.13:5173") // İstemci URL'si
                    .AllowAnyMethod()
                    .AllowAnyHeader()
-                   .AllowCredentials(); // Eğer AllowCredentials kullanıyorsanız WithOrigins ile olmalı
+                   .AllowCredentials(); // Eğer credential kullanıyorsanız WithOrigins kullanmalısınız
         });
     });
 
@@ -69,7 +70,7 @@ try
     // HTTP ile çalışacak şekilde Kestrel yapılandırması
     builder.WebHost.ConfigureKestrel(options =>
     {
-        options.ListenAnyIP(5262); // HTTPS yerine HTTP kullanılır.
+        options.ListenAnyIP(5262); // HTTP kullanımı
     });
 
     var app = builder.Build();
@@ -89,11 +90,11 @@ try
         ForwardedHeaders = ForwardedHeaders.XForwardedFor | ForwardedHeaders.XForwardedProto
     });
 
+    // CORS policy kullanımı
     app.UseCors("MyCorsPolicy");
 
     app.UseResponseCaching();
     app.UseAuthentication();
-
     app.UseAuthorization();
     app.UseMiddleware<JwtMiddleware>();
 
@@ -109,4 +110,3 @@ finally
 {
     NLog.LogManager.Shutdown();
 }
-
