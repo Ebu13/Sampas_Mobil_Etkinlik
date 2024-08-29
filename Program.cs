@@ -11,7 +11,6 @@ using AspNetCoreRateLimit;
 using Microsoft.AspNetCore.HttpOverrides;
 using Microsoft.Extensions.FileProviders;
 using Microsoft.OpenApi.Models;
-
 try
 {
     var builder = WebApplication.CreateBuilder(args);
